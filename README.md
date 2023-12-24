@@ -4,6 +4,8 @@
 ## About 📖
 Dive into the intriguing world of the prisoner's dilemma with us! 🌍🎲 Upload your unique strategy and join the challenge to outsmart other developers. This application is your playground for strategy simulation, where you can experiment with various approaches in the prisoner's dilemma. It's a dynamic environment that lets you test, adapt, and see how your strategies fare against others. So, are you ready to jump in and see if you can emerge as the top strategist? Let the games begin.
 
+Inspired by Derek (Veritasium) https://www.youtube.com/watch?v=mScpHTIi-kM
+
 ## Installation 💻
 
 To get started with this project, clone the repository to your local machine.
