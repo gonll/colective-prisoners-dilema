@@ -1,3 +1,4 @@
+import { exit } from 'process';
 import {type Prisoner, Prisoners} from './prisoners';
 import { strategies } from './strats';
 import * as fs from 'fs';
@@ -5,12 +6,14 @@ import * as fs from 'fs';
 export type Decision = 'cooperate' | 'defect';
 
 const {prisoners} = Prisoners.Instance; 
+if(!prisoners.length)exit();
 
 /// SETTINGS
-const numberOfRandomPrisoners = 10; // How many random prisooners do we wanna use?
-const minRounds = 150; //Prisoners should compete at least this ammount of times with each other.
-const maxRounds = 500; //Prisoners should compete at max this ammount of times with each other.
+const numberOfRandomPrisoners = 500; // How many random prisooners do we wanna use?
+const minRounds = 100; //Prisoners should compete at least this ammount of times with each other.
+const maxRounds = 200; //Prisoners should compete at max this ammount of times with each other.
 const ammountOfGames = 1; // How many times the game should run.
+const showAmmountResults = 20; // How many prisoners should be listed in podium
 
 function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, indexA: number, indexB: number): [number, number] {
     let historyA: Decision[] = [];
@@ -63,7 +66,7 @@ function createRandomPrisoner(id: number): Prisoner {
     const randomStrategy = strategies[randomStrategyKey];
     const errorMargin = parseFloat((Math.random() * 0.5).toFixed(1)); // Error margin between 0 and 0.2
     return {
-        name: `Random P. (${randomStrategyKey} + ${errorMargin} error margin)`,
+        name: `${randomStrategyKey}`,
         errorMargin,
         finalScore: 0,
         description: `Randomly generated prisoner of id ${id} with the ${randomStrategyKey} strategy and a ${errorMargin} error margin.`,
@@ -111,7 +114,7 @@ fs.writeFile(`./results/results-${new Date().toLocaleDateString().replaceAll('/'
     console.log("The file was saved!");
 });
 // Log the sorted results
-prisoners.forEach(prisoner => {
-    const averageScorePerRound = prisoner.finalScore / prisoner.numberOfOpponents;
-    console.log(`${prisoner.name} score: ${averageScorePerRound.toFixed(2)}`);
-});
+for(let i = 0; i < (prisoners.length < showAmmountResults? prisoners.length : showAmmountResults); i++){
+    const averageScorePerRound = prisoners[i].finalScore / prisoners[i].numberOfOpponents;
+    console.log(`${prisoners[i].name}, ${prisoners[i].errorMargin} error margin, score: ${averageScorePerRound.toFixed(2)}`);
+}

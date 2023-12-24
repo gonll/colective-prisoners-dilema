@@ -78,15 +78,6 @@ const prisonersDb: Prisoner[] = [
         publicStrategy: publicStrategies.advancedMirror
     },
     {
-        name: 'Advanced Mirror - High error margin',
-        errorMargin: generalErrorMargin + 0.2,
-        finalScore: 0,
-        numberOfOpponents: 0,
-        description: 'Like Tit for Tat, but with a chance to forgive based on the opponent\'s cooperation rate. High erroor margin.',
-        realStrategy: strategies.advancedMirror,
-        publicStrategy: publicStrategies.advancedMirror
-    },
-    {
         name: 'Vengeful',
         errorMargin: generalErrorMargin + 0.08,
         finalScore: 0,
