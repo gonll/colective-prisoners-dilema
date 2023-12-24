@@ -15,6 +15,8 @@ const maxRounds = 200; //Prisoners should compete at max this ammount of times w
 const ammountOfGames = 1; // How many times the game should run.
 const showAmmountResults = 20; // How many prisoners should be listed in podium
 
+const runAllStrats = false; // Runs all available strats against each other. Won't create random nor repeated prisoners.
+
 function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, indexA: number, indexB: number): [number, number] {
     let historyA: Decision[] = [];
     let historyB: Decision[] = [];
@@ -83,11 +85,34 @@ for (let i = 0; i < numberOfRandomPrisoners; i++) {
 }
 
 const run = () => {
-    // Run game
-    for (let indexA = 0; indexA < prisoners.length; indexA++) {
-        for (let indexB = indexA + 1; indexB < prisoners.length; indexB++) {
-            let rounds = Math.floor(Math.random() * maxRounds) + minRounds;
-            simulateGame(prisoners[indexA], prisoners[indexB], rounds, indexA, indexB);
+    if(runAllStrats){
+        console.log('Run all available strategies against each other enabled. No random nor repeated prisoners will be created.')
+        const stratPrisoner = [];
+        for(const strat in strategies){
+            stratPrisoner.push({
+                name: strat,
+                errorMargin: 0,
+                finalScore: 0,
+                numberOfOpponents: 0,
+                description: '',
+                realStrategy: strategies[strat],
+                publicStrategy: strategies[strat],
+            })
+        }
+        // Run game for all strats
+        for (let indexA = 0; indexA < stratPrisoner.length; indexA++) {
+            for (let indexB = indexA + 1; indexB < stratPrisoner.length; indexB++) {
+                let rounds = Math.floor(Math.random() * maxRounds) + minRounds;
+                simulateGame(stratPrisoner[indexA], stratPrisoner[indexB], rounds, indexA, indexB);
+            }
+        }
+    }else{
+        // Run game
+        for (let indexA = 0; indexA < prisoners.length; indexA++) {
+            for (let indexB = indexA + 1; indexB < prisoners.length; indexB++) {
+                let rounds = Math.floor(Math.random() * maxRounds) + minRounds;
+                simulateGame(prisoners[indexA], prisoners[indexB], rounds, indexA, indexB);
+            }
         }
     }
 }
