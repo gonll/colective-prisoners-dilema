@@ -26,12 +26,12 @@ function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, 
         historyB.push(decisionB);
 
         [scoreA, scoreB] = updateScores(decisionA, decisionB, scoreA, scoreB);
+        prisonerA.numberOfOpponents ++;
+        prisonerB.numberOfOpponents ++;
     }
 
     prisonerA.finalScore += scoreA;
     prisonerB.finalScore += scoreB;
-    prisonerA.numberOfOpponents ++;
-    prisonerB.numberOfOpponents ++;
 
     Prisoners.Instance.updatePrisonerByIndex(indexA, prisonerA);
     Prisoners.Instance.updatePrisonerByIndex(indexB, prisonerB);
@@ -65,7 +65,6 @@ function createRandomPrisoner(id: number): Prisoner {
     return {
         name: `Random P. (${randomStrategyKey} + ${errorMargin} error margin)`,
         errorMargin,
-        history: [],
         finalScore: 0,
         description: `Randomly generated prisoner of id ${id} with the ${randomStrategyKey} strategy and a ${errorMargin} error margin.`,
         numberOfOpponents: 0,
@@ -110,9 +109,9 @@ fs.writeFile(`./results/results-${new Date().toLocaleDateString().replaceAll('/'
         return console.log(err);
     }
     console.log("The file was saved!");
-}); 
+});
 // Log the sorted results
 prisoners.forEach(prisoner => {
     const averageScorePerRound = prisoner.finalScore / prisoner.numberOfOpponents;
-    console.log(`${prisoner.name} score: ${averageScorePerRound.toFixed(0)}`);
+    console.log(`${prisoner.name} score: ${averageScorePerRound.toFixed(2)}`);
 });

@@ -4,7 +4,6 @@ import {Strategy, strategies, publicStrategies} from './strats';
 export interface Prisoner {
     name: string;
     errorMargin: number;
-    history: Decision[];
     finalScore: number;
     description: string;
     numberOfOpponents: number;
@@ -18,7 +17,6 @@ const prisonersDb: Prisoner[] = [
     {
         name: 'Tit for Tat',
         errorMargin: generalErrorMargin + 0.05,
-        history: [],
         finalScore: 0,
         numberOfOpponents: 0,
         description: 'Starts nice, then follows the other prisoner.',
@@ -28,7 +26,6 @@ const prisonersDb: Prisoner[] = [
     {
         name: 'Always Cooperate',
         errorMargin: generalErrorMargin + 0.03,
-        history: [],
         finalScore: 0,
         numberOfOpponents: 0,
         description: 'Always coooperates.',
@@ -38,7 +35,6 @@ const prisonersDb: Prisoner[] = [
     {
         name: 'Always Defect',
         errorMargin: generalErrorMargin + 0.1,
-        history: [],
         finalScore: 0,
         numberOfOpponents: 0,
         description: 'Always defects.',
@@ -48,7 +44,6 @@ const prisonersDb: Prisoner[] = [
     {
         name: 'Random',
         errorMargin: generalErrorMargin + 0.15,
-        history: [],
         finalScore: 0,
         numberOfOpponents: 0,
         description: 'Randomly cooperates and defects. Mostly used as base line.',
@@ -58,7 +53,6 @@ const prisonersDb: Prisoner[] = [
     {
         name: 'Adaptive',
         errorMargin: generalErrorMargin + 0.07,
-        history: [],
         finalScore: 0,
         numberOfOpponents: 0,
         description: 'Adapts based on the opponent\'s past behavior, favoring the most frequent action.',
@@ -68,7 +62,6 @@ const prisonersDb: Prisoner[] = [
     {
         name: 'Gradual Trust',
         errorMargin: generalErrorMargin + 0.06,
-        history: [],
         finalScore: 0,
         numberOfOpponents: 0,
         description: 'Begins with defection and starts cooperating after the opponent consistently cooperates.',
@@ -78,7 +71,6 @@ const prisonersDb: Prisoner[] = [
     {
         name: 'Advanced Mirror',
         errorMargin: generalErrorMargin + 0.04,
-        history: [],
         finalScore: 0,
         numberOfOpponents: 0,
         description: 'Like Tit for Tat, but with a chance to forgive based on the opponent\'s cooperation rate.',
@@ -88,7 +80,6 @@ const prisonersDb: Prisoner[] = [
     {
         name: 'Advanced Mirror - High error margin',
         errorMargin: generalErrorMargin + 0.2,
-        history: [],
         finalScore: 0,
         numberOfOpponents: 0,
         description: 'Like Tit for Tat, but with a chance to forgive based on the opponent\'s cooperation rate. High erroor margin.',
@@ -98,7 +89,6 @@ const prisonersDb: Prisoner[] = [
     {
         name: 'Vengeful',
         errorMargin: generalErrorMargin + 0.08,
-        history: [],
         finalScore: 0,
         numberOfOpponents: 0,
         description: 'Cooperates until the opponent defects once, then always defects.',

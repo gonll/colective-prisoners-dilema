@@ -1,154 +1,135 @@
 [
   {
-    "name": "Random P. (alwaysCooperate + 0.1 error margin)",
-    "errorMargin": 0.1,
-    "history": [],
-    "finalScore": 26238,
-    "description": "Randomly generated prisoner of id 2 with the alwaysCooperate strategy and a 0.1 error margin.",
-    "numberOfOpponents": 18
-  },
-  {
     "name": "Always Cooperate",
     "errorMargin": 0.03,
-    "history": [],
-    "finalScore": 25364,
-    "numberOfOpponents": 18,
+    "finalScore": 26336,
+    "numberOfOpponents": 7075,
     "description": "Always coooperates."
   },
   {
     "name": "Random P. (alwaysCooperate + 0 error margin)",
     "errorMargin": 0,
-    "history": [],
-    "finalScore": 25309,
-    "description": "Randomly generated prisoner of id 1 with the alwaysCooperate strategy and a 0 error margin.",
-    "numberOfOpponents": 18
+    "finalScore": 27643,
+    "description": "Randomly generated prisoner of id 4 with the alwaysCooperate strategy and a 0 error margin.",
+    "numberOfOpponents": 7805
   },
   {
     "name": "Advanced Mirror",
     "errorMargin": 0.04,
-    "history": [],
-    "finalScore": 19904,
-    "numberOfOpponents": 18,
+    "finalScore": 19867,
+    "numberOfOpponents": 7534,
     "description": "Like Tit for Tat, but with a chance to forgive based on the opponent's cooperation rate."
   },
   {
     "name": "Advanced Mirror - High error margin",
     "errorMargin": 0.2,
-    "history": [],
-    "finalScore": 18753,
-    "numberOfOpponents": 18,
+    "finalScore": 15701,
+    "numberOfOpponents": 6375,
     "description": "Like Tit for Tat, but with a chance to forgive based on the opponent's cooperation rate. High erroor margin."
-  },
-  {
-    "name": "Tit for Tat",
-    "errorMargin": 0.05,
-    "history": [],
-    "finalScore": 17794,
-    "numberOfOpponents": 18,
-    "description": "Starts nice, then follows the other prisoner."
-  },
-  {
-    "name": "Random P. (adaptive + 0.4 error margin)",
-    "errorMargin": 0.4,
-    "history": [],
-    "finalScore": 17072,
-    "description": "Randomly generated prisoner of id 4 with the adaptive strategy and a 0.4 error margin.",
-    "numberOfOpponents": 18
   },
   {
     "name": "Random",
     "errorMargin": 0.15,
-    "history": [],
-    "finalScore": 15819,
-    "numberOfOpponents": 18,
+    "finalScore": 17224,
+    "numberOfOpponents": 7157,
     "description": "Randomly cooperates and defects. Mostly used as base line."
   },
   {
-    "name": "Random P. (random + 0.3 error margin)",
-    "errorMargin": 0.3,
-    "history": [],
-    "finalScore": 15645,
-    "description": "Randomly generated prisoner of id 9 with the random strategy and a 0.3 error margin.",
-    "numberOfOpponents": 18
+    "name": "Random P. (advancedMirror + 0.5 error margin)",
+    "errorMargin": 0.5,
+    "finalScore": 15670,
+    "description": "Randomly generated prisoner of id 5 with the advancedMirror strategy and a 0.5 error margin.",
+    "numberOfOpponents": 6861
   },
   {
-    "name": "Random P. (random + 0.1 error margin)",
-    "errorMargin": 0.1,
-    "history": [],
-    "finalScore": 15334,
-    "description": "Randomly generated prisoner of id 3 with the random strategy and a 0.1 error margin.",
-    "numberOfOpponents": 18
+    "name": "Random P. (random + 0 error margin)",
+    "errorMargin": 0,
+    "finalScore": 17481,
+    "description": "Randomly generated prisoner of id 10 with the random strategy and a 0 error margin.",
+    "numberOfOpponents": 7694
   },
   {
     "name": "Random P. (titfortat + 0.2 error margin)",
     "errorMargin": 0.2,
-    "history": [],
-    "finalScore": 15117,
-    "description": "Randomly generated prisoner of id 6 with the titfortat strategy and a 0.2 error margin.",
-    "numberOfOpponents": 18
+    "finalScore": 16891,
+    "description": "Randomly generated prisoner of id 9 with the titfortat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 7789
   },
   {
-    "name": "Random P. (vengeful + 0.4 error margin)",
-    "errorMargin": 0.4,
-    "history": [],
-    "finalScore": 14422,
-    "description": "Randomly generated prisoner of id 7 with the vengeful strategy and a 0.4 error margin.",
-    "numberOfOpponents": 18
+    "name": "Tit for Tat",
+    "errorMargin": 0.05,
+    "finalScore": 18091,
+    "numberOfOpponents": 8527,
+    "description": "Starts nice, then follows the other prisoner."
   },
   {
-    "name": "Random P. (advancedMirror + 0.4 error margin)",
+    "name": "Random P. (alwaysDefect + 0.4 error margin)",
     "errorMargin": 0.4,
-    "history": [],
-    "finalScore": 14149,
-    "description": "Randomly generated prisoner of id 5 with the advancedMirror strategy and a 0.4 error margin.",
-    "numberOfOpponents": 18
+    "finalScore": 15549,
+    "description": "Randomly generated prisoner of id 7 with the alwaysDefect strategy and a 0.4 error margin.",
+    "numberOfOpponents": 7671
+  },
+  {
+    "name": "Random P. (gradualTrust + 0.3 error margin)",
+    "errorMargin": 0.3,
+    "finalScore": 14864,
+    "description": "Randomly generated prisoner of id 2 with the gradualTrust strategy and a 0.3 error margin.",
+    "numberOfOpponents": 7569
+  },
+  {
+    "name": "Random P. (adaptive + 0.2 error margin)",
+    "errorMargin": 0.2,
+    "finalScore": 15857,
+    "description": "Randomly generated prisoner of id 3 with the adaptive strategy and a 0.2 error margin.",
+    "numberOfOpponents": 8116
+  },
+  {
+    "name": "Random P. (vengeful + 0.3 error margin)",
+    "errorMargin": 0.3,
+    "finalScore": 13713,
+    "description": "Randomly generated prisoner of id 8 with the vengeful strategy and a 0.3 error margin.",
+    "numberOfOpponents": 7918
   },
   {
     "name": "Adaptive",
     "errorMargin": 0.07,
-    "history": [],
-    "finalScore": 13499,
-    "numberOfOpponents": 18,
+    "finalScore": 10820,
+    "numberOfOpponents": 6547,
     "description": "Adapts based on the opponent's past behavior, favoring the most frequent action."
-  },
-  {
-    "name": "Random P. (vengeful + 0.2 error margin)",
-    "errorMargin": 0.2,
-    "history": [],
-    "finalScore": 11490,
-    "description": "Randomly generated prisoner of id 10 with the vengeful strategy and a 0.2 error margin.",
-    "numberOfOpponents": 18
   },
   {
     "name": "Gradual Trust",
     "errorMargin": 0.06,
-    "history": [],
-    "finalScore": 9515,
-    "numberOfOpponents": 18,
+    "finalScore": 9728,
+    "numberOfOpponents": 7662,
     "description": "Begins with defection and starts cooperating after the opponent consistently cooperates."
   },
   {
     "name": "Vengeful",
     "errorMargin": 0.08,
-    "history": [],
-    "finalScore": 9107,
-    "numberOfOpponents": 18,
+    "finalScore": 8142,
+    "numberOfOpponents": 6649,
     "description": "Cooperates until the opponent defects once, then always defects."
+  },
+  {
+    "name": "Random P. (vengeful + 0.1 error margin)",
+    "errorMargin": 0.1,
+    "finalScore": 9400,
+    "description": "Randomly generated prisoner of id 1 with the vengeful strategy and a 0.1 error margin.",
+    "numberOfOpponents": 8202
   },
   {
     "name": "Random P. (gradualTrust + 0 error margin)",
     "errorMargin": 0,
-    "history": [],
-    "finalScore": 9000,
-    "description": "Randomly generated prisoner of id 8 with the gradualTrust strategy and a 0 error margin.",
-    "numberOfOpponents": 18
+    "finalScore": 8463,
+    "description": "Randomly generated prisoner of id 6 with the gradualTrust strategy and a 0 error margin.",
+    "numberOfOpponents": 7773
   },
   {
     "name": "Always Defect",
     "errorMargin": 0.1,
-    "history": [],
-    "finalScore": 7584,
-    "numberOfOpponents": 18,
+    "finalScore": 7800,
+    "numberOfOpponents": 7666,
     "description": "Always defects."
   }
 ]
