@@ -5,7 +5,10 @@ export type Decision = 'cooperate' | 'defect';
 const {prisoners} = Prisoners.Instance; 
 
 /// SETTINGS
-const numberOfRandomPrisoners = 5; // How many random prisooners do we wanna use?
+const numberOfRandomPrisoners = 10; // How many random prisooners do we wanna use?
+const minRounds = 150; //Prisoners should compete at least this ammount of times with each other.
+const maxRounds = 500; //Prisoners should compete at max this ammount of times with each other.
+const ammountOfGames = 500; // How many times the game should run.
 
 function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, indexA: number, indexB: number): [number, number] {
     let historyA: Decision[] = [];
@@ -25,6 +28,8 @@ function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, 
 
     prisonerA.finalScore += scoreA;
     prisonerB.finalScore += scoreB;
+    prisonerA.numberOfOpponents ++;
+    prisonerB.numberOfOpponents ++;
 
     Prisoners.Instance.updatePrisonerByIndex(indexA, prisonerA);
     Prisoners.Instance.updatePrisonerByIndex(indexB, prisonerB);
@@ -32,10 +37,7 @@ function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, 
 }
 
 function applyError(decision: Decision, errorMargin: number): Decision {
-    if (Math.random() < errorMargin) {
-        return decision === 'cooperate' ? 'defect' : 'cooperate';
-    }
-    return decision;
+    return Math.random() < errorMargin ? (decision === 'cooperate' ? 'defect' : 'cooperate') : decision;
 }
 
 function updateScores(decisionA: Decision, decisionB: Decision, scoreA: number, scoreB: number): [number, number] {
@@ -57,37 +59,52 @@ function createRandomPrisoner(id: number): Prisoner {
     const strategyKeys = Object.keys(strategies);
     const randomStrategyKey = strategyKeys[Math.floor(Math.random() * strategyKeys.length)];
     const randomStrategy = strategies[randomStrategyKey];
-
+    const errorMargin = parseFloat((Math.random() * 0.5).toFixed(1)); // Error margin between 0 and 0.2
     return {
-        name: `Random Prisoner ${id} (${randomStrategyKey})`,
-        errorMargin: Math.random() * 0.999, // Error margin between 0 and 0.2
+        name: `Random P. (${randomStrategyKey} + ${errorMargin} error margin)`,
+        errorMargin,
         history: [],
         finalScore: 0,
-        description: `Randomly generated prisoner with the ${randomStrategyKey} strategy.`,
+        description: `Randomly generated prisoner of id ${id} with the ${randomStrategyKey} strategy and a ${errorMargin} error margin.`,
+        numberOfOpponents: 0,
         realStrategy: randomStrategy,
-        publicStrategy: randomStrategy // assuming public and real strategies are the same for simplicity
+        publicStrategy: randomStrategy // Assuming public and real strategies are the same for now for simplicity
     };
 }
 
-// Generar y añadir prisioneros aleatorios
+// Generate and add random prisoners
 for (let i = 0; i < numberOfRandomPrisoners; i++) {
     const randomPrisoner = createRandomPrisoner(i + 1);
-    console.log("🚀 ~ randomPrisoner created:", randomPrisoner);
     prisoners.push(randomPrisoner);
 }
-// Simulate game
-prisoners.forEach((prisonerA, indexA) => {
-    prisoners.forEach((prisonerB, indexB) => {
-        if (indexA !== indexB) {
-            let rounds = Math.floor(Math.random() * 90000) + 10; // Entre 10 y 300
-            let [scoreA, scoreB] = simulateGame(prisonerA, prisonerB, rounds,indexA, indexB);
-            console.log(`Resultado entre ${prisonerA.name} y ${prisonerB.name}: ${scoreA} - ${scoreB}`);
+
+const run = () => {
+    // Run game
+    for (let indexA = 0; indexA < prisoners.length; indexA++) {
+        for (let indexB = indexA + 1; indexB < prisoners.length; indexB++) {
+            let rounds = Math.floor(Math.random() * maxRounds) + minRounds;
+            simulateGame(prisoners[indexA], prisoners[indexB], rounds, indexA, indexB);
         }
-    });
-});
+    }
+}
+
+for(let i = 1; i <= ammountOfGames; i++ ){
+    console.log("🚀 ~ Run number: ", i)
+    run()
+}
+
 console.log('--------------------------------------------');
 console.log('End result: ');
 console.log('--------------------------------------------');
-prisoners.sort((a, b) => b.finalScore - a.finalScore).forEach(prisoner => {
-    console.log(prisoner.name, ' score: ', prisoner.finalScore)
-})
+// Sort prisoners based on their average score per round
+prisoners.sort((a, b) => {
+    const averageScoreA = a.finalScore / a.numberOfOpponents;
+    const averageScoreB = b.finalScore / b.numberOfOpponents;
+    return averageScoreB - averageScoreA;
+});
+
+// Log the sorted results
+prisoners.forEach(prisoner => {
+    const averageScorePerRound = prisoner.finalScore / prisoner.numberOfOpponents;
+    console.log(`${prisoner.name} score: ${averageScorePerRound.toFixed(0)}`);
+});
