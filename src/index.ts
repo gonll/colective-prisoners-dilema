@@ -1,5 +1,7 @@
 import {type Prisoner, Prisoners} from './prisoners';
 import { strategies } from './strats';
+import * as fs from 'fs';
+
 export type Decision = 'cooperate' | 'defect';
 
 const {prisoners} = Prisoners.Instance; 
@@ -8,7 +10,7 @@ const {prisoners} = Prisoners.Instance;
 const numberOfRandomPrisoners = 10; // How many random prisooners do we wanna use?
 const minRounds = 150; //Prisoners should compete at least this ammount of times with each other.
 const maxRounds = 500; //Prisoners should compete at max this ammount of times with each other.
-const ammountOfGames = 500; // How many times the game should run.
+const ammountOfGames = 1; // How many times the game should run.
 
 function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, indexA: number, indexB: number): [number, number] {
     let historyA: Decision[] = [];
@@ -102,7 +104,13 @@ prisoners.sort((a, b) => {
     const averageScoreB = b.finalScore / b.numberOfOpponents;
     return averageScoreB - averageScoreA;
 });
-
+// Write out results
+fs.writeFile(`./results/results-${new Date().toLocaleDateString().replaceAll('/','-')}.txt`, JSON.stringify(prisoners, null, 2), function(err) {
+    if(err) {
+        return console.log(err);
+    }
+    console.log("The file was saved!");
+}); 
 // Log the sorted results
 prisoners.forEach(prisoner => {
     const averageScorePerRound = prisoner.finalScore / prisoner.numberOfOpponents;
