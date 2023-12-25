@@ -1,0 +1,3558 @@
+[
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0,
+    "finalScore": 91386,
+    "numberOfOpponents": 25912,
+    "description": ""
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0,
+    "finalScore": 94955,
+    "numberOfOpponents": 26983,
+    "description": ""
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0,
+    "finalScore": 78565,
+    "numberOfOpponents": 26787,
+    "description": ""
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0,
+    "finalScore": 74930,
+    "numberOfOpponents": 26265,
+    "description": ""
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0,
+    "finalScore": 77255,
+    "numberOfOpponents": 27103,
+    "description": ""
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0,
+    "finalScore": 75621,
+    "numberOfOpponents": 26571,
+    "description": ""
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0,
+    "finalScore": 70034,
+    "numberOfOpponents": 25287,
+    "description": ""
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0,
+    "finalScore": 68710,
+    "numberOfOpponents": 25499,
+    "description": ""
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0,
+    "finalScore": 71059,
+    "numberOfOpponents": 27078,
+    "description": ""
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0,
+    "finalScore": 68554,
+    "numberOfOpponents": 26352,
+    "description": ""
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0,
+    "finalScore": 67658,
+    "numberOfOpponents": 27166,
+    "description": ""
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0,
+    "finalScore": 67868,
+    "numberOfOpponents": 27260,
+    "description": ""
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0,
+    "finalScore": 60614,
+    "numberOfOpponents": 26054,
+    "description": ""
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0,
+    "finalScore": 57838,
+    "numberOfOpponents": 25147,
+    "description": ""
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0,
+    "finalScore": 59455,
+    "numberOfOpponents": 26327,
+    "description": ""
+  },
+  {
+    "name": "random",
+    "errorMargin": 0,
+    "finalScore": 60678,
+    "numberOfOpponents": 27071,
+    "description": ""
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0,
+    "finalScore": 60948,
+    "numberOfOpponents": 27249,
+    "description": ""
+  },
+  {
+    "name": "minorityRule",
+    "errorMargin": 0,
+    "finalScore": 58600,
+    "numberOfOpponents": 26739,
+    "description": ""
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0,
+    "finalScore": 58404,
+    "numberOfOpponents": 26974,
+    "description": ""
+  },
+  {
+    "name": "randomTitForTat",
+    "errorMargin": 0,
+    "finalScore": 57768,
+    "numberOfOpponents": 26834,
+    "description": ""
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0,
+    "finalScore": 57774,
+    "numberOfOpponents": 27034,
+    "description": ""
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0,
+    "finalScore": 57300,
+    "numberOfOpponents": 27003,
+    "description": ""
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0,
+    "finalScore": 52036,
+    "numberOfOpponents": 26480,
+    "description": ""
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0,
+    "finalScore": 48569,
+    "numberOfOpponents": 27331,
+    "description": ""
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0,
+    "finalScore": 43458,
+    "numberOfOpponents": 26584,
+    "description": ""
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0,
+    "finalScore": 43540,
+    "numberOfOpponents": 27160,
+    "description": ""
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0,
+    "finalScore": 29789,
+    "numberOfOpponents": 26761,
+    "description": ""
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0,
+    "finalScore": 17757,
+    "numberOfOpponents": 25941,
+    "description": ""
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 21 with the alwaysCooperate strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 22 with the random strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 23 with the titForTatWithForgiveness strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 24 with the periodicCooperate strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 25 with the titfortat strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 26 with the alwaysDefect strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 27 with the majorityRule strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 28 with the alwaysCooperate strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 29 with the gradualTrust strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 30 with the suspiciousTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 31 with the antiTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 32 with the forgivingTitForTat strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 33 with the random strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 34 with the forgivingTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 35 with the cooperateOnWin strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 36 with the gradualTrust strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 37 with the alwaysCooperate strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 38 with the vengeful strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 39 with the grudger strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 40 with the periodicCooperate strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 41 with the forgivingTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 42 with the cooperateOnWin strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 43 with the cautiousTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 44 with the gradualTrust strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 45 with the alwaysDefect strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 46 with the alternating strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 47 with the cooperateOnWin strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 48 with the opportunistic strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 49 with the titForTatWithForgiveness strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 50 with the adaptive strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 51 with the advancedMirror strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 52 with the antiTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 53 with the randomAlternating strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 54 with the alternating strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 55 with the grudger strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 56 with the vengeful strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 57 with the majorityRule strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 58 with the vengeful strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 59 with the alternating strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 60 with the periodicDefect strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 61 with the cooperateOnWin strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 62 with the adaptive strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 63 with the suspiciousTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 64 with the cooperateOnWin strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 65 with the gradualTrust strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 66 with the forgivingTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 67 with the alwaysDefect strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 68 with the vengeful strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 69 with the randomAlternating strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 70 with the opportunistic strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 71 with the titForTwoTats strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 72 with the grudger strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 73 with the titfortat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 74 with the vengeful strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 75 with the twoTitsForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 76 with the twoTitsForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "minorityRule",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 77 with the minorityRule strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 78 with the titForTwoTats strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 79 with the randomAlternating strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 80 with the opportunistic strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 81 with the forgivingTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 82 with the periodicCooperate strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 83 with the copycat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 84 with the titForTwoTats strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "minorityRule",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 85 with the minorityRule strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 86 with the forgivingTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 87 with the vengeful strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 88 with the adaptive strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 89 with the titForTatWithForgiveness strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 90 with the alwaysDefect strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 91 with the cooperateOnWin strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 92 with the titForTwoTats strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 93 with the periodicCooperate strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 94 with the cooperateOnWin strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 95 with the periodicDefect strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 96 with the alwaysDefect strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 97 with the majorityRule strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 98 with the periodicDefect strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 99 with the cautiousTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 100 with the copycat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 101 with the periodicDefect strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 102 with the adaptive strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 103 with the advancedMirror strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 104 with the adaptive strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 105 with the opportunistic strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 106 with the opportunistic strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 107 with the forgivingTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 108 with the alternating strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 109 with the advancedMirror strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 110 with the defectOnLoss strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 111 with the periodicCooperate strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 112 with the titForTatWithForgiveness strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 113 with the opportunistic strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 114 with the copycat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 115 with the titfortat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 116 with the forgivingTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "minorityRule",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 117 with the minorityRule strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 118 with the alwaysDefect strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 119 with the probingTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "minorityRule",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 120 with the minorityRule strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 121 with the periodicCooperate strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 122 with the titfortat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 123 with the opportunistic strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 124 with the random strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomTitForTat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 125 with the randomTitForTat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 126 with the twoTitsForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 127 with the randomAlternating strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 128 with the randomTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 129 with the periodicDefect strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 130 with the vengeful strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 131 with the cooperateOnWin strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 132 with the periodicCooperate strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 133 with the suspiciousTitForTat strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 134 with the forgivingTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 135 with the twoTitsForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 136 with the alwaysCooperate strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 137 with the antiTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 138 with the titForTwoTats strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 139 with the random strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 140 with the alwaysDefect strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 141 with the random strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 142 with the opportunistic strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 143 with the titForTatWithForgiveness strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 144 with the copycat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 145 with the probingTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 146 with the adaptive strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 147 with the cautiousTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 148 with the antiTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 149 with the cooperateOnWin strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 150 with the suspiciousTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 151 with the antiTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 152 with the twoTitsForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 153 with the antiTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 154 with the alwaysDefect strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 155 with the cooperateOnWin strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 156 with the periodicCooperate strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 157 with the adaptive strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 158 with the adaptive strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 159 with the titForTwoTats strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 160 with the copycat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 161 with the antiTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 162 with the titForTatWithForgiveness strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 163 with the advancedMirror strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 164 with the titfortat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 165 with the antiTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 166 with the adaptive strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 167 with the vengeful strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 168 with the vengeful strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 169 with the advancedMirror strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 170 with the gradualTrust strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 171 with the periodicCooperate strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 172 with the majorityRule strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 173 with the random strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 174 with the twoTitsForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 175 with the probingTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 176 with the cooperateOnWin strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 177 with the alwaysCooperate strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 178 with the gradualTrust strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 179 with the advancedMirror strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 180 with the twoTitsForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "minorityRule",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 181 with the minorityRule strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 182 with the advancedMirror strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 183 with the defectOnLoss strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 184 with the periodicCooperate strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 185 with the random strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 186 with the copycat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 187 with the gradualTrust strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 188 with the adaptive strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 189 with the twoTitsForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 190 with the majorityRule strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 191 with the grudger strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 192 with the periodicDefect strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 193 with the periodicCooperate strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 194 with the forgivingTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 195 with the randomAlternating strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 196 with the advancedMirror strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 197 with the periodicDefect strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 198 with the alwaysCooperate strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 199 with the probingTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 200 with the random strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 201 with the adaptive strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 202 with the antiTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 203 with the advancedMirror strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 204 with the titForTwoTats strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 205 with the defectOnLoss strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 206 with the probingTitForTat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 207 with the periodicCooperate strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 208 with the forgivingTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 209 with the periodicCooperate strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 210 with the cautiousTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 211 with the suspiciousTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 212 with the suspiciousTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 213 with the alternating strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 214 with the suspiciousTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 215 with the titForTwoTats strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 216 with the randomAlternating strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 217 with the forgivingTitForTat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 218 with the alwaysCooperate strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 219 with the grudger strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 220 with the alwaysCooperate strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 221 with the alternating strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 222 with the vengeful strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 223 with the cooperateOnWin strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 224 with the adaptive strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 225 with the gradualTrust strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 226 with the probingTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 227 with the probingTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 228 with the majorityRule strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 229 with the advancedMirror strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 230 with the grudger strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 231 with the gradualTrust strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 232 with the alwaysDefect strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 233 with the titForTatWithForgiveness strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 234 with the advancedMirror strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 235 with the vengeful strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 236 with the opportunistic strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 237 with the cooperateOnWin strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 238 with the antiTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 239 with the random strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 240 with the titfortat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 241 with the cooperateOnWin strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 242 with the majorityRule strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 243 with the alwaysCooperate strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 244 with the suspiciousTitForTat strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "minorityRule",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 245 with the minorityRule strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 246 with the adaptive strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 247 with the periodicDefect strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 248 with the titForTatWithForgiveness strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 249 with the random strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 250 with the randomAlternating strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "minorityRule",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 251 with the minorityRule strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 252 with the cautiousTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 253 with the grudger strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 254 with the opportunistic strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 255 with the copycat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "minorityRule",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 256 with the minorityRule strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 257 with the alwaysDefect strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 258 with the twoTitsForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 259 with the majorityRule strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 260 with the alwaysCooperate strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 261 with the randomTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 262 with the titfortat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 263 with the alwaysDefect strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 264 with the defectOnLoss strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 265 with the defectOnLoss strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 266 with the antiTitForTat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 267 with the titForTatWithForgiveness strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 268 with the titForTwoTats strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 269 with the copycat strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 270 with the opportunistic strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 271 with the cautiousTitForTat strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 272 with the periodicCooperate strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 273 with the advancedMirror strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 274 with the defectOnLoss strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 275 with the suspiciousTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 276 with the opportunistic strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 277 with the defectOnLoss strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 278 with the grudger strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 279 with the randomAlternating strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 280 with the defectOnLoss strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 281 with the gradualTrust strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 282 with the gradualTrust strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 283 with the alwaysDefect strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 284 with the grudger strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 285 with the vengeful strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 286 with the cooperateOnWin strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 287 with the titForTatWithForgiveness strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 288 with the titfortat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 289 with the random strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 290 with the gradualTrust strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 291 with the alwaysCooperate strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 292 with the opportunistic strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 293 with the defectOnLoss strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 294 with the probingTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 295 with the periodicCooperate strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 296 with the titForTwoTats strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 297 with the cautiousTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "minorityRule",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 298 with the minorityRule strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 299 with the suspiciousTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 300 with the periodicCooperate strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 301 with the twoTitsForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 302 with the titfortat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 303 with the antiTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 304 with the periodicDefect strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 305 with the alternating strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 306 with the majorityRule strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 307 with the titForTatWithForgiveness strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 308 with the opportunistic strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 309 with the defectOnLoss strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 310 with the defectOnLoss strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 311 with the randomAlternating strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 312 with the periodicCooperate strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "minorityRule",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 313 with the minorityRule strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 314 with the vengeful strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 315 with the copycat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 316 with the advancedMirror strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 317 with the copycat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 318 with the advancedMirror strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 319 with the defectOnLoss strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 320 with the majorityRule strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 321 with the advancedMirror strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 322 with the periodicCooperate strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 323 with the titForTwoTats strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 324 with the majorityRule strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 325 with the titForTatWithForgiveness strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 326 with the titForTatWithForgiveness strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomTitForTat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 327 with the randomTitForTat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 328 with the titForTwoTats strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 329 with the majorityRule strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 330 with the cautiousTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 331 with the forgivingTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 332 with the adaptive strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 333 with the cooperateOnWin strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 334 with the randomAlternating strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 335 with the probingTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 336 with the majorityRule strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 337 with the defectOnLoss strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 338 with the probingTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 339 with the gradualTrust strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 340 with the titfortat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 341 with the vengeful strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 342 with the alternating strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 343 with the copycat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 344 with the forgivingTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 345 with the opportunistic strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 346 with the majorityRule strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 347 with the cautiousTitForTat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 348 with the randomTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 349 with the alwaysCooperate strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 350 with the twoTitsForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 351 with the alwaysCooperate strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 352 with the periodicCooperate strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 353 with the forgivingTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 354 with the periodicDefect strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 355 with the cautiousTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 356 with the cooperateOnWin strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 357 with the opportunistic strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 358 with the forgivingTitForTat strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 359 with the twoTitsForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 360 with the advancedMirror strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 361 with the vengeful strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 362 with the suspiciousTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 363 with the titForTwoTats strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 364 with the cautiousTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 365 with the forgivingTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 366 with the alternating strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 367 with the twoTitsForTat strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 368 with the twoTitsForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 369 with the defectOnLoss strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 370 with the periodicCooperate strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 371 with the twoTitsForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 372 with the grudger strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 373 with the periodicDefect strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 374 with the gradualTrust strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicCooperate",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 375 with the periodicCooperate strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 376 with the titForTatWithForgiveness strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 377 with the titForTwoTats strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 378 with the alwaysDefect strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 379 with the forgivingTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 380 with the antiTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 381 with the majorityRule strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 382 with the advancedMirror strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 383 with the alwaysCooperate strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 384 with the twoTitsForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 385 with the opportunistic strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 386 with the forgivingTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 387 with the antiTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 388 with the adaptive strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 389 with the gradualTrust strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 390 with the alternating strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 391 with the alwaysCooperate strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 392 with the titForTwoTats strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 393 with the adaptive strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 394 with the gradualTrust strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 395 with the suspiciousTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 396 with the titForTatWithForgiveness strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 397 with the randomTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 398 with the majorityRule strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 399 with the grudger strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 400 with the alternating strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 401 with the probingTitForTat strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 402 with the vengeful strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 403 with the suspiciousTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 404 with the copycat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 405 with the alwaysDefect strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 406 with the twoTitsForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 407 with the opportunistic strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 408 with the alwaysCooperate strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 409 with the gradualTrust strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 410 with the random strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 411 with the cooperateOnWin strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 412 with the probingTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 413 with the adaptive strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 414 with the alternating strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 415 with the twoTitsForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 416 with the randomTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "suspiciousTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 417 with the suspiciousTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 418 with the titForTatWithForgiveness strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 419 with the titfortat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 420 with the titForTwoTats strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 421 with the gradualTrust strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 422 with the periodicDefect strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 423 with the copycat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 424 with the probingTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 425 with the twoTitsForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 426 with the periodicDefect strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 427 with the alwaysDefect strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 428 with the antiTitForTat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "random",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 429 with the random strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 430 with the alwaysDefect strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 431 with the grudger strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 432 with the antiTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 433 with the alternating strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 434 with the randomTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 435 with the alwaysCooperate strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 436 with the forgivingTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 437 with the grudger strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 438 with the adaptive strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 439 with the alwaysCooperate strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 440 with the opportunistic strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 441 with the majorityRule strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 442 with the titForTatWithForgiveness strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 443 with the titForTatWithForgiveness strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "grudger",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 444 with the grudger strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 445 with the titForTatWithForgiveness strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 446 with the advancedMirror strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 447 with the antiTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomTitForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 448 with the randomTitForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 449 with the alternating strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 450 with the titForTatWithForgiveness strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 451 with the antiTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 452 with the advancedMirror strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 453 with the titfortat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 454 with the copycat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alternating",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 455 with the alternating strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysDefect",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 456 with the alwaysDefect strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 457 with the titForTwoTats strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 458 with the forgivingTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 459 with the adaptive strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cautiousTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 460 with the cautiousTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 461 with the probingTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 462 with the defectOnLoss strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 463 with the periodicDefect strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 464 with the advancedMirror strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 465 with the opportunistic strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 466 with the advancedMirror strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 467 with the titForTwoTats strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "twoTitsForTat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 468 with the twoTitsForTat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "defectOnLoss",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 469 with the defectOnLoss strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 470 with the copycat strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 471 with the vengeful strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 472 with the forgivingTitForTat strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomTitForTat",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 473 with the randomTitForTat strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 474 with the cooperateOnWin strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "probingTitForTat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 475 with the probingTitForTat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "alwaysCooperate",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 476 with the alwaysCooperate strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 477 with the adaptive strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 478 with the vengeful strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTatWithForgiveness",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 479 with the titForTatWithForgiveness strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "antiTitForTat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 480 with the antiTitForTat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "vengeful",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 481 with the vengeful strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "gradualTrust",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 482 with the gradualTrust strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 483 with the advancedMirror strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 484 with the randomAlternating strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titForTwoTats",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 485 with the titForTwoTats strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "forgivingTitForTat",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 486 with the forgivingTitForTat strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 487 with the advancedMirror strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 488 with the advancedMirror strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "cooperateOnWin",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 489 with the cooperateOnWin strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "opportunistic",
+    "errorMargin": 0.4,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 490 with the opportunistic strategy and a 0.4 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "adaptive",
+    "errorMargin": 0.2,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 491 with the adaptive strategy and a 0.2 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "titfortat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 492 with the titfortat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 493 with the advancedMirror strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomAlternating",
+    "errorMargin": 0.5,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 494 with the randomAlternating strategy and a 0.5 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 495 with the periodicDefect strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "majorityRule",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 496 with the majorityRule strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "advancedMirror",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 497 with the advancedMirror strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "copycat",
+    "errorMargin": 0.1,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 498 with the copycat strategy and a 0.1 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "randomTitForTat",
+    "errorMargin": 0,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 499 with the randomTitForTat strategy and a 0 error margin.",
+    "numberOfOpponents": 0
+  },
+  {
+    "name": "periodicDefect",
+    "errorMargin": 0.3,
+    "finalScore": 0,
+    "description": "Randomly generated prisoner of id 500 with the periodicDefect strategy and a 0.3 error margin.",
+    "numberOfOpponents": 0
+  }
+]
