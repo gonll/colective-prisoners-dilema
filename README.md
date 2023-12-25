@@ -35,8 +35,10 @@ The behavior of the simulation can be adjusted using several settings. These are
 
 - `numberOfRandomPrisoners`: Number of randomly generated prisoners to include in the simulation. Default is 10.
 - `minRounds`: Minimum number of rounds each pair of prisoners will compete against each other. Default is 150.
-- `maxRounds`: Maximum number of rounds each pair of prisoners can compete against each other. Default is 500.
-- `ammountOfGames`: Total number of games the simulation will run. Default is 500.
+- `maxRounds`: Maximum number of rounds each pair of prisoners can compete against each other. Default is 300.
+- `ammountOfGames`: Total number of games the simulation will run. Default is 5.
+- `showAmmountResults`: How many prisoners should be listed in podium. Default is 20.
+- `runAllStrats`: Runs all available strats against each other. Won't create random nor repeated prisoners. Default is false.
 
 You can modify these settings to suit your needs and experiment with different scenarios.
 
