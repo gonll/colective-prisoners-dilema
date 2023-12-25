@@ -1,5 +1,6 @@
-# Settings are modified per user
+# Settings and rules are not modified
 src/settings.ts
+src/index.ts
 
 # Logs
 logs
