@@ -1,3 +1,6 @@
+# Settings are modified per user
+src/settings.ts
+
 # Logs
 logs
 *.log
