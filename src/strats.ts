@@ -1,8 +1,9 @@
 import { Decision } from ".";
 
 export type Strategy = (opponentHistory: Decision[], ownHistory: Decision[], opponentPublicStrategy: Strategy) => Decision;
+interface StrategyList {[key: string]: Strategy}
 
-export const strategies: {[key: string]: Strategy} = {
+const mainStrategies: StrategyList = {
     titfortat: (opponentHistory: Decision[]): Decision => {
         if (opponentHistory.length === 0) {
             return 'cooperate';
@@ -29,7 +30,7 @@ export const strategies: {[key: string]: Strategy} = {
         }
     },
     gradualTrust: (opponentHistory: Decision[]): Decision => {
-        const threshold = 3; // Número de veces consecutivas para comenzar a cooperar
+        const threshold = 3; // Starts cooperating after this many times.
         let consecutiveCooperation = 0;
 
         for (let i = opponentHistory.length - 1; i >= 0; i--) {
@@ -153,14 +154,14 @@ export const strategies: {[key: string]: Strategy} = {
             return (opponentHistory[opponentHistory.length - 1] === 'cooperate' && opponentHistory[opponentHistory.length - 2] === 'cooperate') ? 'defect' : 'cooperate';
         }
     },
-    defectOnLoss: (opponentHistory: Decision[], ownHistory: Decision[]): Decision => {
+    defectOnLoss: (ownHistory: Decision[]): Decision => {
         if (ownHistory.length === 0 || ownHistory[ownHistory.length - 1] === 'defect') {
             return 'cooperate';
         } else {
             return 'defect';
         }
     },
-    cooperateOnWin: (opponentHistory: Decision[], ownHistory: Decision[]): Decision => {
+    cooperateOnWin: (ownHistory: Decision[]): Decision => {
         if (ownHistory.length === 0 || ownHistory[ownHistory.length - 1] === 'cooperate') {
             return 'cooperate';
         } else {
@@ -172,6 +173,38 @@ export const strategies: {[key: string]: Strategy} = {
     }
 }
 
-export const publicStrategies = {
-    ...strategies
+const smartStrategies = {
+     //Straight forward strats. They don't care about other prisoners public strats and barely care about history of decisions.
+    trustfulDumb: (function() {
+        let inExecution = false;
+
+        return function(opponentHistory: Decision[], ownHistory: Decision[], opponentPublicStrategy: Strategy): Decision {
+            if (inExecution) {
+                // Return a default decision to avoid infinite recursion
+                return 'defect';
+            }
+
+            inExecution = true;
+            const opponentDecisionToBe = opponentPublicStrategy(ownHistory, opponentHistory, smartStrategies.trustfulDumb);
+            inExecution = false;
+            
+            switch (opponentDecisionToBe) {
+                case 'cooperate':
+                    return 'defect';
+                case 'defect':
+                    return 'defect';
+            }
+        };
+    })(),
+}
+
+// ------------------ Exports ------------------
+export const strategies: StrategyList = {
+    ...mainStrategies,
+    ...smartStrategies
+}
+
+export const publicStrategies: StrategyList = {
+    ...mainStrategies,
+    ...smartStrategies
 }

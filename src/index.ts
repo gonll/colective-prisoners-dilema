@@ -3,6 +3,7 @@ import {type Prisoner, Prisoners} from './prisoners';
 import { strategies } from './strats';
 import * as fs from 'fs';
 import {numberOfRandomPrisoners, minRounds, maxRounds, showAmmountResults, ammountOfGames, runAllStrats} from './settings'
+
 export type Decision = 'cooperate' | 'defect';
 
 const {prisoners} = Prisoners.Instance; 
@@ -22,6 +23,7 @@ function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, 
         historyB.push(decisionB);
 
         [scoreA, scoreB] = updateScores(decisionA, decisionB, scoreA, scoreB);
+        
         prisonerA.numberOfOpponents ++;
         prisonerB.numberOfOpponents ++;
     }
@@ -43,9 +45,9 @@ function updateScores(decisionA: Decision, decisionB: Decision, scoreA: number, 
         scoreA += 3;
         scoreB += 3;
     } else if (decisionA === 'cooperate' && decisionB === 'defect') {
-        scoreA += 5;
-    } else if (decisionA === 'defect' && decisionB === 'cooperate') {
         scoreB += 5;
+    } else if (decisionA === 'defect' && decisionB === 'cooperate') {
+        scoreA += 5;
     } else {
         scoreA += 1;
         scoreB += 1;
@@ -112,23 +114,22 @@ if(runAllStrats){
 }
 
 console.log('--------------------------------------------');
-console.log('End result: ');
+console.log('End result ');
 console.log('--------------------------------------------');
+console.log('Higher means better performing');
 // Sort prisoners based on their average score per round
 prisoners.sort((a, b) => {
     const averageScoreA = a.finalScore / (a.numberOfOpponents || 1);
     const averageScoreB = b.finalScore / (b.numberOfOpponents || 1);
     return averageScoreB - averageScoreA;
 });
+const result = prisoners.map( p => ({name: p.name, finalScore: Number((p.finalScore/p.numberOfOpponents).toFixed(2))})).filter( p => p.finalScore > 0);
 // Write out results
-fs.writeFile(`./results/results-${new Date().toLocaleDateString().replaceAll('/','-')}-${Date.now()}.txt`, JSON.stringify(prisoners, null, 2), function(err) {
+fs.writeFile(`./results/results-${new Date().toLocaleDateString().replaceAll('/','-')}-${Date.now()}.txt`, JSON.stringify(result, null, 2), function(err) {
     if(err) {
         return console.log(err);
     }
     console.log("The file was saved!");
 });
 // Log the sorted results
-for(let i = 0; i < (prisoners.length < showAmmountResults? prisoners.length : showAmmountResults); i++){
-    const averageScorePerRound = prisoners[i].finalScore / prisoners[i].numberOfOpponents;
-    console.log(`${prisoners[i].name}, ${prisoners[i].errorMargin} error margin, score: ${averageScorePerRound.toFixed(2)}`);
-}
+console.log(result)
