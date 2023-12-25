@@ -9,6 +9,18 @@ export type Decision = 'cooperate' | 'defect';
 const {prisoners} = Prisoners.Instance; 
 if(!prisoners.length)exit();
 
+/**
+ * Simulates a game between two prisoners over a specified number of rounds.
+ * Each prisoner makes decisions based on their strategies and error margins.
+ * The function updates the scores and history of each prisoner and returns the final scores.
+ * 
+ * @param {Prisoner} prisonerA - The first prisoner in the game.
+ * @param {Prisoner} prisonerB - The second prisoner in the game.
+ * @param {number} rounds - The number of rounds to play in the game.
+ * @param {number} indexA - The index of prisonerA in the prisoner array.
+ * @param {number} indexB - The index of prisonerB in the prisoner array.
+ * @returns {[number, number]} - The final scores of prisonerA and prisonerB.
+ */
 function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, indexA: number, indexB: number): [number, number] {
     let historyA: Decision[] = [];
     let historyB: Decision[] = [];
@@ -36,10 +48,28 @@ function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, 
     return [scoreA, scoreB];
 }
 
+/**
+ * Applies a possible error to a prisoner's decision based on their error margin.
+ * There's a chance that the prisoner's decision will be flipped from 'cooperate' to 'defect' or vice versa.
+ * 
+ * @param {Decision} decision - The original decision made by the prisoner.
+ * @param {number} errorMargin - The probability of the decision being incorrect.
+ * @returns {Decision} - The possibly altered decision.
+ */
 function applyError(decision: Decision, errorMargin: number): Decision {
     return Math.random() < errorMargin ? (decision === 'cooperate' ? 'defect' : 'cooperate') : decision;
 }
 
+/**
+ * Updates and returns the scores of two prisoners based on their decisions in a round.
+ * Scoring is based on the classic prisoner's dilemma payoff matrix.
+ * 
+ * @param {Decision} decisionA - The decision made by the first prisoner.
+ * @param {Decision} decisionB - The decision made by the second prisoner.
+ * @param {number} scoreA - The current score of the first prisoner.
+ * @param {number} scoreB - The current score of the second prisoner.
+ * @returns {[number, number]} - The updated scores of both prisoners.
+ */
 function updateScores(decisionA: Decision, decisionB: Decision, scoreA: number, scoreB: number): [number, number] {
     if (decisionA === 'cooperate' && decisionB === 'cooperate') {
         scoreA += 3;
@@ -55,9 +85,14 @@ function updateScores(decisionA: Decision, decisionB: Decision, scoreA: number, 
     return [scoreA, scoreB];
 }
 
-// Precompute keys
-const strategyKeys = Object.keys(strategies);
+/**
+ * Creates a random prisoner with a randomly selected strategy and error margin.
+ * 
+ * @param {number} id - The identifier for the prisoner.
+ * @returns {Prisoner} - The newly created prisoner object.
+ */
 function createRandomPrisoner(id: number): Prisoner {
+    const strategyKeys = Object.keys(strategies);
     const randomStrategyKey = strategyKeys[Math.floor(Math.random() * strategyKeys.length)];
     const randomStrategy = strategies[randomStrategyKey];
     const errorMargin = parseFloat((Math.random() * 0.5).toFixed(1)); // Error margin between 0 and 0.2
@@ -72,12 +107,12 @@ function createRandomPrisoner(id: number): Prisoner {
     };
 }
 
-// Generate and add random prisoners
-for (let i = 0; i < numberOfRandomPrisoners; i++) {
-    const randomPrisoner = createRandomPrisoner(i + 1);
-    prisoners.push(randomPrisoner);
-}
-
+/**
+ * Runs the prisoner's dilemma game for a set of prisoners.
+ * It iterates through all pairs of prisoners, simulating games between them.
+ * 
+ * @param {Prisoner[]} computedPrisoners - The array of prisoners to participate in the game.
+ */
 const run = (computedPrisoners: Prisoner[]) => {
     // Run game
     for (let indexA = 0; indexA < computedPrisoners.length; indexA++) {
@@ -87,11 +122,26 @@ const run = (computedPrisoners: Prisoner[]) => {
         }
     }
 }
+
+/**
+ * Repeatedly runs the prisoner's dilemma game for the given number of times.
+ * Each run involves simulating games between all pairs of prisoners.
+ * 
+ * @param {Prisoner[]} computedPrisoners - The array of prisoners to participate in the games.
+ */
 const runAllGames = (computedPrisoners: Prisoner[]) => {
     for(let i = 1; i <= ammountOfGames; i++ ){
         console.log("🚀 ~ Run number: ", i)
         run(computedPrisoners)
     }
+}
+
+// Execute program
+
+// Generate and add random prisoners
+for (let i = 0; i < numberOfRandomPrisoners; i++) {
+    const randomPrisoner = createRandomPrisoner(i + 1);
+    prisoners.push(randomPrisoner);
 }
 
 if(runAllStrats){
