@@ -10,5 +10,8 @@
   },
   "scripts": {
     "start": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.6"
   }
 }

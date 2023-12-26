@@ -3,11 +3,29 @@ import {type Prisoner, Prisoners} from './prisoners';
 import { strategies } from './strats';
 import * as fs from 'fs';
 import {numberOfRandomPrisoners, minRounds, maxRounds, showAmmountResults, ammountOfGames, runAllStrats} from './settings'
+import { Db } from './db';
 
+// Types
 export type Decision = 'cooperate' | 'defect';
+export interface GamesPlayed {
+    prisonerA: Prisoner;
+    prisonerB: Prisoner;
+    history: ConjoinedHistory;
+    scoreA: number;
+    scoreB: number;
+    rounds: number;
+}
+type ConjoinedHistory = {a: Decision, b: Decision}[];
 
-const {prisoners} = Prisoners.Instance; 
+// Instances and earlyreturns
+const PrisonersInstance = Prisoners.Instance; 
+const {prisoners} = PrisonersInstance; 
 if(!prisoners.length)exit();
+
+//Store results in database
+const DbInstance = Db.Instance; 
+const gamesPlayed: GamesPlayed[] = [];
+DbInstance.db
 
 /**
  * Simulates a game between two prisoners over a specified number of rounds.
@@ -22,8 +40,9 @@ if(!prisoners.length)exit();
  * @returns {[number, number]} - The final scores of prisonerA and prisonerB.
  */
 function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, indexA: number, indexB: number): [number, number] {
-    let historyA: Decision[] = [];
-    let historyB: Decision[] = [];
+    const historyA: Decision[] = [];
+    const historyB: Decision[] = [];
+    const conjoinedHistory: ConjoinedHistory = [];
     let scoreA = 0;
     let scoreB = 0;
 
@@ -33,7 +52,7 @@ function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, 
 
         historyA.push(decisionA);
         historyB.push(decisionB);
-
+        conjoinedHistory.push({a: decisionA, b: decisionB});
         [scoreA, scoreB] = updateScores(decisionA, decisionB, scoreA, scoreB);
         
         prisonerA.numberOfOpponents ++;
@@ -43,8 +62,18 @@ function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, 
     prisonerA.finalScore += scoreA;
     prisonerB.finalScore += scoreB;
 
-    Prisoners.Instance.updatePrisonerByIndex(indexA, prisonerA);
-    Prisoners.Instance.updatePrisonerByIndex(indexB, prisonerB);
+    PrisonersInstance.updatePrisonerByIndex(indexA, prisonerA);
+    PrisonersInstance.updatePrisonerByIndex(indexB, prisonerB);
+
+    gamesPlayed.push({
+        prisonerA,
+        prisonerB,
+        history: conjoinedHistory,
+        scoreA,
+        scoreB,
+        rounds
+    })
+
     return [scoreA, scoreB];
 }
 
@@ -173,7 +202,7 @@ prisoners.sort((a, b) => {
     const averageScoreB = b.finalScore / (b.numberOfOpponents || 1);
     return averageScoreB - averageScoreA;
 });
-const result = prisoners.map( p => ({name: p.name, finalScore: Number((p.finalScore/p.numberOfOpponents).toFixed(2))})).filter( p => p.finalScore > 0);
+const result = prisoners.map( p => ({name: p.name, finalScore: Number((p.finalScore/p.numberOfOpponents).toFixed(2))})).filter( p => p.finalScore > 0).slice(0,showAmmountResults);
 // Write out results
 fs.writeFile(`./results/results-${new Date().toLocaleDateString().replaceAll('/','-')}-${Date.now()}.txt`, JSON.stringify(result, null, 2), function(err) {
     if(err) {
@@ -183,3 +212,6 @@ fs.writeFile(`./results/results-${new Date().toLocaleDateString().replaceAll('/'
 });
 // Log the sorted results
 console.log(result)
+
+// Store results in db
+DbInstance.insertGamesPlayed(JSON.stringify(gamesPlayed))
