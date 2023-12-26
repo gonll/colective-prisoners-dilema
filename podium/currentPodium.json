@@ -1,118 +1,118 @@
 [
   {
-    "name": "grudger",
-    "finalScore": 2.77
-  },
-  {
     "name": "vengeful",
-    "finalScore": 2.66
+    "finalScore": 2.75
   },
   {
-    "name": "cautiousTitForTat",
-    "finalScore": 2.57
+    "name": "grudger",
+    "finalScore": 2.74
   },
   {
     "name": "titForTatWithForgiveness",
     "finalScore": 2.5
   },
   {
+    "name": "cautiousTitForTat",
+    "finalScore": 2.49
+  },
+  {
     "name": "forgivingTitForTat",
     "finalScore": 2.48
   },
   {
+    "name": "titForTwoTats",
+    "finalScore": 2.45
+  },
+  {
     "name": "titfortat",
-    "finalScore": 2.44
+    "finalScore": 2.41
   },
   {
     "name": "cooperateOnWin",
-    "finalScore": 2.44
-  },
-  {
-    "name": "titForTwoTats",
-    "finalScore": 2.42
+    "finalScore": 2.41
   },
   {
     "name": "copycat",
-    "finalScore": 2.42
+    "finalScore": 2.41
   },
   {
     "name": "advancedMirror",
-    "finalScore": 2.34
+    "finalScore": 2.35
   },
   {
-    "name": "trustfulDumb",
-    "finalScore": 2.25
+    "name": "periodicCooperate",
+    "finalScore": 2.26
   },
   {
     "name": "alternating",
-    "finalScore": 2.2
+    "finalScore": 2.25
   },
   {
-    "name": "twoTitsForTat",
-    "finalScore": 2.19
+    "name": "trustfulDumb",
+    "finalScore": 2.23
   },
   {
-    "name": "randomAlternating",
-    "finalScore": 2.19
+    "name": "alwaysDefect",
+    "finalScore": 2.23
   },
   {
     "name": "minorityRule",
-    "finalScore": 2.18
+    "finalScore": 2.23
   },
   {
-    "name": "suspiciousTitForTat",
-    "finalScore": 2.17
+    "name": "twoTitsForTat",
+    "finalScore": 2.2
   },
   {
-    "name": "periodicDefect",
-    "finalScore": 2.14
+    "name": "random",
+    "finalScore": 2.2
+  },
+  {
+    "name": "defectOnLoss",
+    "finalScore": 2.16
   },
   {
     "name": "antiTitForTat",
     "finalScore": 2.11
   },
   {
-    "name": "defectOnLoss",
+    "name": "periodicDefect",
     "finalScore": 2.1
   },
   {
-    "name": "periodicCooperate",
-    "finalScore": 2.09
-  },
-  {
-    "name": "randomTitForTat",
+    "name": "alwaysCooperate",
     "finalScore": 2.08
   },
   {
-    "name": "alwaysDefect",
-    "finalScore": 2.08
-  },
-  {
-    "name": "adaptive",
+    "name": "suspiciousTitForTat",
     "finalScore": 2.07
   },
   {
-    "name": "majorityRule",
+    "name": "randomAlternating",
     "finalScore": 2.06
   },
   {
-    "name": "random",
-    "finalScore": 2.05
+    "name": "randomTitForTat",
+    "finalScore": 2.06
   },
   {
-    "name": "alwaysCooperate",
-    "finalScore": 2.05
+    "name": "majorityRule",
+    "finalScore": 2.01
+  },
+  {
+    "name": "adaptive",
+    "finalScore": 2.01
   },
   {
     "name": "probingTitForTat",
     "finalScore": 1.94
   },
   {
-    "name": "gradualTrust",
-    "finalScore": 1.85
+    "name": "opportunistic",
+    "finalScore": 1.81
   },
   {
-    "name": "opportunistic",
-    "finalScore": 1.82
+    "name": "gradualTrust",
+    "finalScore": 1.81
   }
 ]

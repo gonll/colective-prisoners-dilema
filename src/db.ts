@@ -6,7 +6,7 @@ const sqlite3 = require('sqlite3').verbose();
 export class Db {
     db: any;
     constructor () {
-        this.db = new sqlite3.Database('./prisonersDilema.db', (err: { message: any; }) => {
+        this.db = new sqlite3.Database('./db/prisonersDilema.db', (err: { message: any; }) => {
             if (err) {
                 console.error(err.message);
             }
