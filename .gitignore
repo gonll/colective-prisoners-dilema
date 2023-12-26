@@ -1,6 +1,6 @@
 # Ignore personal results and db
 results/*
-prisonersDilema.db
+db/*
 
 # Logs
 logs
