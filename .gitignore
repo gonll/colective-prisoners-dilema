@@ -1,6 +1,6 @@
-# Settings and rules are not modified
-src/settings.ts
-src/index.ts
+# Ignore personal results and db
+results/*
+prisonersDilema.db
 
 # Logs
 logs

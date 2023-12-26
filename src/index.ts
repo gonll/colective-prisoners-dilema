@@ -15,7 +15,7 @@ export interface GamesPlayed {
     scoreB: number;
     rounds: number;
 }
-type ConjoinedHistory = {a: Decision, b: Decision}[];
+type ConjoinedHistory = {[key: string]: Decision}[];
 
 // Instances and earlyreturns
 const PrisonersInstance = Prisoners.Instance; 
@@ -52,7 +52,7 @@ function simulateGame(prisonerA: Prisoner, prisonerB: Prisoner, rounds: number, 
 
         historyA.push(decisionA);
         historyB.push(decisionB);
-        conjoinedHistory.push({a: decisionA, b: decisionB});
+        conjoinedHistory.push({[prisonerA.name]: decisionA, [prisonerB.name]: decisionB});
         [scoreA, scoreB] = updateScores(decisionA, decisionB, scoreA, scoreB);
         
         prisonerA.numberOfOpponents ++;
@@ -165,17 +165,15 @@ const runAllGames = (computedPrisoners: Prisoner[]) => {
     }
 }
 
-// Execute program
-
-// Generate and add random prisoners
-for (let i = 0; i < numberOfRandomPrisoners; i++) {
-    const randomPrisoner = createRandomPrisoner(i + 1);
-    prisoners.push(randomPrisoner);
-}
+/*
+-------------------
+Execute program
+-------------------
+*/
 
 if(runAllStrats){
     console.log('Run all available strategies against each other enabled. No random nor repeated prisoners will be created.')
-    const stratPrisoner = [];
+    const stratPrisoner: Prisoner[] = [];
     for(const strat in strategies){
         stratPrisoner.push({
             name: strat,
@@ -189,6 +187,11 @@ if(runAllStrats){
     }
     runAllGames(stratPrisoner);
 }else{
+    // Generate and add random prisoners
+    for (let i = 0; i < numberOfRandomPrisoners; i++) {
+        const randomPrisoner = createRandomPrisoner(i + 1);
+        prisoners.push(randomPrisoner);
+    }
     runAllGames(prisoners);
 }
 
@@ -202,16 +205,22 @@ prisoners.sort((a, b) => {
     const averageScoreB = b.finalScore / (b.numberOfOpponents || 1);
     return averageScoreB - averageScoreA;
 });
-const result = prisoners.map( p => ({name: p.name, finalScore: Number((p.finalScore/p.numberOfOpponents).toFixed(2))})).filter( p => p.finalScore > 0).slice(0,showAmmountResults);
-// Write out results
-fs.writeFile(`./results/results-${new Date().toLocaleDateString().replaceAll('/','-')}-${Date.now()}.txt`, JSON.stringify(result, null, 2), function(err) {
+const result = prisoners.map( p => ({name: p.name, finalScore: Number((p.finalScore/p.numberOfOpponents).toFixed(2))})).filter( p => p.finalScore > 0);
+// Write out results & podium
+fs.writeFile(`./results/results-${new Date().toLocaleDateString().replaceAll('/','-')}-${Date.now()}.json`, JSON.stringify(gamesPlayed, null, 2), function(err) {
     if(err) {
         return console.log(err);
     }
-    console.log("The file was saved!");
+    console.log("The results file was saved!");
+});
+fs.writeFile(`./podium/currentPodium.json`, JSON.stringify(result, null, 2), function(err) {
+    if(err) {
+        return console.log(err);
+    }
+    console.log("The podium file was saved!");
 });
 // Log the sorted results
-console.log(result)
+console.log(result.slice(0,showAmmountResults))
 
 // Store results in db
 DbInstance.insertGamesPlayed(JSON.stringify(gamesPlayed))
