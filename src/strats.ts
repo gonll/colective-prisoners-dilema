@@ -116,6 +116,10 @@ const mainStrategies: StrategyList = {
     grudger: (opponentHistory: Decision[]): Decision => {
         return opponentHistory.includes('defect') ? 'defect' : 'cooperate';
     },
+    smartGrudger3: (opponentHistory: Decision[]): Decision => {
+        const defected = opponentHistory.filter(d => d == 'defect').length;
+        return defected > 3 ? 'defect' : 'cooperate';
+    },
     probingTitForTat: (opponentHistory: Decision[], ownHistory: Decision[]): Decision => {
         if (opponentHistory.length === 0 || (ownHistory.length > 0 && ownHistory[ownHistory.length - 1] === 'defect' && Math.random() < 0.1)) {
             return 'defect';
